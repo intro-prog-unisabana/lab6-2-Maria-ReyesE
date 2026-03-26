@@ -6,6 +6,3 @@ def get_config():
         "color_mode" : "dark",
         "sensitivity": 0.4,
     }
-
-v = get_config()
-print(v)
