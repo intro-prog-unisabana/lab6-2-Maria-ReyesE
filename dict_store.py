@@ -1,5 +1,5 @@
 # Write your code here!
 def temp_and_color (data):
-    temp = data.get("temp", 22.5)
-    color = data.get("color", "blue")
+    temp = data.get("temp", None)
+    color = data.get("color", None)
     return (temp, color)
